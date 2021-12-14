@@ -1,0 +1,28 @@
+<html>
+    <head>
+          <title>
+              Welcome
+          </title>      
+    </head>
+    <body>
+        <h1>KalaivaniSekar</h1>
+        <button>Click</button>
+        <div class="tip"></div>
+    </body>
+
+
+
+    <script>
+       let button = document.querySelector("button")
+        let name="KalaivaniSekar"
+        let output = document.querySelector(".tip")
+        
+
+        function message()
+        {
+           output.innerText = `${name.substring(9,14)} `
+        }
+        button.addEventListener("click", message)
+
+    </script>
+</html>

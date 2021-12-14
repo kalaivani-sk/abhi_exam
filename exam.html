@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+     <div>
+         <h3>KalaivaniSekar</h3>
+        <h4 id='output'></h4>
+
+        <script>
+            function vowel_count(str) {
+                var v_list = 'aAeEiIoOuU';
+                var v_count = 0;
+
+                for (var i = 0; i < str.length; i++) {
+                    if (v_list.indexOf(str[i]) !== -1) {
+                        v_count += 1;
+                    }
+
+                }
+                return v_count;
+            }
+        
+        
+        </script>
+    <a href="https://github.com/kalaivani-sk/abhi_exam.git"><button  type ="button" 
+        onclick='document.getElementById("output").innerHTML = vowel_count("<h1>KalaivaniSekar</h1>")'>
+        Count Vowels
+    </button></a>
+    </div>
+    
+</script>
+</body>
+
+</html>
